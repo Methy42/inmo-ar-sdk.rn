@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "inmo-ar-sdk.rn": ["../src/index"],
+      "inmo-ar-sdk.rn/*": ["../src/*"]
+    }
+  }
+}
